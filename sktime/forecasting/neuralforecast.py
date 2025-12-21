@@ -177,7 +177,7 @@ class NeuralForecastRNN(_NeuralForecastAdapter):
         # inherited from _NeuralForecastAdapter
         # estimator type
         # --------------
-        "python_dependencies": ["neuralforecast>=1.6.4"],
+        "python_dependencies": ["neuralforecast>=1.6.4,<4.0.0"],
         "capability:global_forecasting": True,
     }
 
@@ -569,7 +569,7 @@ class NeuralForecastLSTM(_NeuralForecastAdapter):
         # inherited from _NeuralForecastAdapter
         # estimator type
         # --------------
-        "python_dependencies": ["neuralforecast>=1.6.4"],
+        "python_dependencies": ["neuralforecast>=1.6.4,<4.0.0"],
         "capability:global_forecasting": True,
     }
 
@@ -958,7 +958,7 @@ class NeuralForecastGRU(_NeuralForecastAdapter):
         # inherited from _NeuralForecastAdapter
         # estimator type
         # --------------
-        "python_dependencies": ["neuralforecast>=1.6.4"],
+        "python_dependencies": ["neuralforecast>=1.6.4,<4.0.0"],
         "capability:global_forecasting": True,
     }
 
@@ -1358,7 +1358,7 @@ class NeuralForecastDilatedRNN(_NeuralForecastAdapter):
         # inherited from _NeuralForecastAdapter
         # estimator type
         # --------------
-        "python_dependencies": ["neuralforecast>=1.6.4"],
+        "python_dependencies": ["neuralforecast>=1.6.4,<4.0.0"],
         "capability:global_forecasting": True,
     }
 
@@ -1756,7 +1756,7 @@ class NeuralForecastTCN(_NeuralForecastAdapter):
         # inherited from _NeuralForecastAdapter
         # estimator type
         # --------------
-        "python_dependencies": ["neuralforecast>=1.6.4"],
+        "python_dependencies": ["neuralforecast>=1.6.4,<4.0.0"],
         "capability:global_forecasting": True,
     }
 
